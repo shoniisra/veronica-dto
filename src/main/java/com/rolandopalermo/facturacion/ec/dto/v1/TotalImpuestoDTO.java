@@ -20,5 +20,6 @@ public class TotalImpuestoDTO implements Serializable {
     private BigDecimal tarifa;
     @NotNull
     private BigDecimal valor;
+    private BigDecimal valorDevolucionIva;
 
 }

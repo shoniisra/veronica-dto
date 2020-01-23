@@ -25,5 +25,6 @@ public class FacturaDetalleDTO implements Serializable {
     @NotEmpty
     @Valid
     private List<ImpuestoDTO> impuesto;
+    private String unidadMedida;
 
 }

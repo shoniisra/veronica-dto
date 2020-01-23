@@ -14,6 +14,27 @@ import java.util.List;
 @Data
 public class InfoFacturaDTO extends InfoComprobanteDTO {
 
+    private String comercioExterior;
+    private String incoTermFactura;
+    private String lugarIncoTerm;
+    private String paisOrigen;
+    private String puertoEmbarque;
+    private String puertoDestino;
+    private String paisDestino;
+    private String paisAdquisicion;
+
+    private BigDecimal totalSubsidio;
+    private String incoTermTotalSinImpuestos;
+    private String codDocReembolso;
+    private BigDecimal totalComprobantesReembolso;
+    private BigDecimal totalBaseImponibleReembolso;
+    private BigDecimal totalImpuestoReembolso;
+
+    private BigDecimal fleteInternacional;
+    private BigDecimal seguroInternacional;
+    private BigDecimal gastosAduaneros;
+    private BigDecimal gastosTransporteOtros;
+
     @NotEmpty
     private String tipoIdentificacionComprador;
     private String guiaRemision;
@@ -28,6 +49,8 @@ public class InfoFacturaDTO extends InfoComprobanteDTO {
     @NotEmpty
     @Valid
     private List<TotalImpuestoDTO> totalImpuesto;
+    @Valid
+    private List<CompensacionDTO> compensacion;
     private BigDecimal propina;
     @NotNull
     private BigDecimal importeTotal;

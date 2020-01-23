@@ -2,9 +2,6 @@ package com.rolandopalermo.facturacion.ec.dto.v1.invoice;
 
 import com.rolandopalermo.facturacion.ec.dto.v1.ComprobanteDTO;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
@@ -20,5 +17,8 @@ public class FacturaDTO extends ComprobanteDTO {
     @Valid
     @Size(min = 1)
     private List<FacturaDetalleDTO> detalle;
+    private List<ReembolsoDetalleDTO> reembolsoDetalle;
+    private List<FacturaRetencionDTO> retencion;
+    private TipoNegociableDTO tipoNegociable;
 
 }
