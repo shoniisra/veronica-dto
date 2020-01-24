@@ -19,6 +19,7 @@ public class FacturaDetalleDTO implements Serializable {
     private String descripcion;
     private BigDecimal cantidad;
     private BigDecimal precioUnitario;
+    private BigDecimal precioSinSubsidio;
     private BigDecimal descuento;
     private BigDecimal precioTotalSinImpuesto;
     private List<DetAdicionalDTO> detAdicional;
