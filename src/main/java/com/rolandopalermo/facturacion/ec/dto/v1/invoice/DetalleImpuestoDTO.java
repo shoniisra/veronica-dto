@@ -9,7 +9,7 @@ public class DetalleImpuestoDTO {
 
     private String codigo;
     private String codigoPorcentaje;
-    private BigDecimal tarifa;
+    private String tarifa;
     private BigDecimal baseImponibleReembolso;
     private BigDecimal impuestoReembolso;
 

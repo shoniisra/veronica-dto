@@ -55,6 +55,7 @@ public class InfoFacturaDTO extends InfoComprobanteDTO {
     @NotNull
     private BigDecimal importeTotal;
     private String moneda;
+    private String placa;
     @NotEmpty
     @Valid
     private List<PagoDTO> pagos;

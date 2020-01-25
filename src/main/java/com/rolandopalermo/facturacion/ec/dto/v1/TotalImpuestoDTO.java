@@ -17,7 +17,7 @@ public class TotalImpuestoDTO implements Serializable {
     private BigDecimal descuentoAdicional;
     @NotNull
     private BigDecimal baseImponible;
-    private BigDecimal tarifa;
+    private String tarifa;
     @NotNull
     private BigDecimal valor;
     private BigDecimal valorDevolucionIva;

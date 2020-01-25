@@ -20,5 +20,7 @@ public class FacturaDTO extends ComprobanteDTO {
     private List<ReembolsoDetalleDTO> reembolsoDetalle;
     private List<FacturaRetencionDTO> retencion;
     private TipoNegociableDTO tipoNegociable;
+    private InfoSustitutivaGuiaRemisionDTO infoSustitutivaGuiaRemision;
+    private List<RubroDTO> rubro;
 
 }
