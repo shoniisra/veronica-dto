@@ -1,21 +1,18 @@
 package com.rolandopalermo.facturacion.ec.dto.v1.withholding;
 
-import com.rolandopalermo.facturacion.ec.dto.v1.ComprobanteDTO;
-import com.rolandopalermo.facturacion.ec.dto.v1.ImpuestoDTO;
 import lombok.Data;
 
-import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-import java.util.List;
+import java.math.BigDecimal;
 
 @Data
-public class RetencionDTO extends ComprobanteDTO {
+public class RetencionDTO {
 
-    private InfoRetencionDTO infoRetencion;
-    @NotNull
-    @Valid
-    @Size(min = 1)
-    private List<ImpuestoDTO> impuesto;
+    private String codigo;
+    private String codigoRetencion;
+    private BigDecimal baseImponible;
+    private BigDecimal porcentajeRetener;
+    private BigDecimal valorRetenido;
+    private DividendosDTO dividendos;
+    private CompraCajBananoDTO compraCajBanano;
 
 }

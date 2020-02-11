@@ -15,5 +15,7 @@ public class InfoRetencionDTO extends InfoComprobanteDTO {
     @NotEmpty
     private String identificacionSujetoRetenido;
     private String periodoFiscal;
+    private String tipoSujetoRetenido;
+    private String parteRel;
 
 }

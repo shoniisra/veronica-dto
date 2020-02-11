@@ -1,7 +1,7 @@
 package com.rolandopalermo.facturacion.ec.dto.v1.pc;
 
 import com.rolandopalermo.facturacion.ec.dto.v1.ComprobanteDTO;
-import com.rolandopalermo.facturacion.ec.dto.v1.invoice.ReembolsoDetalleDTO;
+import com.rolandopalermo.facturacion.ec.dto.v1.ReembolsoDetalleDTO;
 import lombok.Data;
 
 import java.util.List;

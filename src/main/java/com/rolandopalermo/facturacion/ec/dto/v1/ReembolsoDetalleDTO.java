@@ -1,5 +1,7 @@
-package com.rolandopalermo.facturacion.ec.dto.v1.invoice;
+package com.rolandopalermo.facturacion.ec.dto.v1;
 
+import com.rolandopalermo.facturacion.ec.dto.v1.invoice.CompensacionReembolsoDTO;
+import com.rolandopalermo.facturacion.ec.dto.v1.invoice.DetalleImpuestoDTO;
 import lombok.Data;
 
 import java.util.List;
@@ -16,7 +18,7 @@ public class ReembolsoDetalleDTO {
     private String ptoEmiDocReembolso;
     private String secuencialDocReembolso;
     private String fechaEmisionDocReembolso;
-    private String numeroautorizacionDocReemb;
+    private String numeroAutorizacionDocReemb;
     private List<DetalleImpuestoDTO> detalleImpuesto;
     private List<CompensacionReembolsoDTO> compensacionReembolso;
 

@@ -1,6 +1,7 @@
 package com.rolandopalermo.facturacion.ec.dto.v1.invoice;
 
 import com.rolandopalermo.facturacion.ec.dto.v1.ComprobanteDTO;
+import com.rolandopalermo.facturacion.ec.dto.v1.ReembolsoDetalleDTO;
 import lombok.Data;
 
 import javax.validation.Valid;
