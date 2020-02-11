@@ -1,5 +1,6 @@
 package com.rolandopalermo.facturacion.ec.dto.v1.cm;
 
+import com.rolandopalermo.facturacion.ec.dto.CompensacionDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.InfoComprobanteDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.TotalImpuestoDTO;
 import lombok.Data;
@@ -28,5 +29,7 @@ public class InfoNotaCreditoDTO extends InfoComprobanteDTO {
     @Valid
     @Size(min = 1)
     private List<TotalImpuestoDTO> totalImpuesto;
+    @Valid
+    private List<CompensacionDTO> compensacion;
 
 }

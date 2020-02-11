@@ -1,5 +1,6 @@
 package com.rolandopalermo.facturacion.ec.dto.v1.invoice;
 
+import com.rolandopalermo.facturacion.ec.dto.CompensacionDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.InfoComprobanteDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.PagoDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.TotalImpuestoDTO;
