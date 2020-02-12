@@ -1,5 +1,6 @@
 package com.rolandopalermo.facturacion.ec.dto.v1.dm;
 
+import com.rolandopalermo.facturacion.ec.dto.CompensacionDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.ImpuestoDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.InfoComprobanteDTO;
 import com.rolandopalermo.facturacion.ec.dto.v1.PagoDTO;
@@ -31,5 +32,7 @@ public class InfoNotaDebitoDTO extends InfoComprobanteDTO {
     @NotEmpty
     @Valid
     private List<PagoDTO> pagos;
+    @Valid
+    private List<CompensacionDTO> compensacion;
 
 }
