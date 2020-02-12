@@ -3,7 +3,7 @@
 
     <groupId>com.rolandopalermo.facturacion.ec</groupId>
     <artifactId>veronica-dto</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <name>Veronica DTO</name>
     <description>Veronica data transfer objects for ecuadorian electronic invoicing</description>
@@ -13,7 +13,7 @@
         <url>https://github.com/rolandopalermo/veronica-dto.git</url>
         <connection>scm:git:git://github.com/rolandopalermo/veronica-dto.git</connection>
         <developerConnection>scm:git:git@github.com:rolandopalermo/veronica-dto.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>veronica-dto-1.0.1</tag>
     </scm>
 
     <licenses>
