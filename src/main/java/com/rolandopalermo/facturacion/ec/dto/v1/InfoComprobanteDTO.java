@@ -10,7 +10,6 @@ public class InfoComprobanteDTO implements Serializable {
 
     @NotEmpty
     private String fechaEmision;
-    @NotEmpty
     private String dirEstablecimiento;
     private String contribuyenteEspecial;
     private String obligadoContabilidad;
